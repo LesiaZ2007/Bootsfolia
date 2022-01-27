@@ -1,0 +1,23 @@
+@mixin tekoFont($size,$color) {
+    font: {
+        size: $size;
+        family: 'Teko', sans-serif;
+    }
+    color: $color;
+    text-transform: uppercase;
+}
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin robotoFont($size,$color) {
+    font: {
+        size: $size;
+        family: 'Roboto', sans-serif;
+    }
+    color: $color;
+}

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bootsfolia</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="wrapperInner">
+                <div class="header__left">
+                    <div class="header__logo logo">
+                        <img src="img/rocketLogo.png" alt="rocketLogo" class="logo__img">
+                        <h2 class="logo__text">
+                            <a href="#">Bootsfolia</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__menu">
+                        <div class="toggle" onclick="dropdown()" class="dropbtn">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="nav__hidden hidden">
+                            <ul class="hidden__list" id="hidden__list">
+                                <li class="hidden__element"><a href="#">Home</a></li>
+                                <li class="hidden__element"><a href="#">About Us</a></li>
+                                <li class="hidden__element"><a href="#">Services</a></li>
+                                <li class="hidden__element"><a href="#">Contact</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="wrapperInner">
+                <div class="banner__text">
+                    <div class="banner__textWrapper">
+                        <h1 class="banner__heading">
+                            We think creative be creative
+                        </h1>
+                        <h3 class="banner__subheading">
+                            like to do creative works
+                        </h3>
+                    </div>
+                    <div class="banner__icon">
+                        <a href="#about">
+                            <i class="fas fa-mouse"></i>
+                            <span>SCROLL DOWN</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="wrapperInner">
+                <div class="about__text">
+                    <h2 class="about__heading">
+                        About us
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="about__blocks blocks">
+                    <div class="blocks__card card">
+                        <img src="img/roller.png" alt="roller" class="card__img">
+                        <h4 class="card__heading">
+                            creative design
+                        </h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae neque.
+                        </p>
+                    </div>
+                    <div class="blocks__card card">
+                        <img src="img/suitcase.png" alt="suitcase" class="card__img">
+                        <h4 class="card__heading">
+                            Uniqu portfolio
+                        </h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae neque.
+                        </p>
+                    </div>
+                    <div class="blocks__card card">
+                        <img src="img/infinity.png" alt="infinity" class="card__img">
+                        <h4 class="card__heading">
+                            Infinite Updates
+                        </h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae neque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FEATURES -->
+
+        <section class="who">
+            <div class="wrapperInner">
+                <div class="who__text">
+                    <h2 class="about__heading">WHO WE ARE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo, consectetur dicta veniam
+                        aliquid
+                        nostrum!</p>
+                </div>
+                <div class="who__content">
+                    <div class="who__designer who__gray">
+                        <a href="#">
+                            <img src="img/profile_gray.jpg" alt="profile">
+                            <h4>JANE SMITH</h4>
+                            <h5>DESIGNER</h5>
+                            <div class="media"><img src="img/be.png" alt="be"><img src="img/twitter.png"
+                                    alt="twitter"><img src="img/facebook.png" alt="facebook">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="who__skills skills who__gray">
+                        <div class="skills__text">
+                            <h4>MY SKILLS</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem consectetur earum nostrum
+                                numquam, illum architecto possimus suscipit totam consequuntur doloremque sint labore
+                                maxime
+                                necessitatibus porro eum, similique dolorum pariatur! Nisi velit autem quia dolore
+                                repudiandae?</p>
+
+                        </div>
+                        <div class="skills__skills">
+                            <div class="skills__skill">
+                                <a href="#">
+                                    <h5>PHOTOSHOP</h5>
+                                </a>
+
+                                <div class="gradient"></div>
+                                <span class="skill__number">88%</span>
+                            </div>
+                            <div class="skills__skill">
+                                <a href="#">
+                                    <h5>ILLUSTRATOR</h5>
+                                </a>
+
+                                <div class="gradient"></div>
+                                <span class="skill__number">92%</span>
+                            </div>
+                            <div class="skills__skill">
+                                <a href="#">
+                                    <h5>SKETCH</h5>
+                                </a>
+
+                                <div class="gradient"></div>
+                                <span class="skill__number">90%</span>
+                            </div>
+                            <div class="skills__skill">
+                                <a href="#">
+                                    <h5>AFTER EFFECTS</h5>
+                                </a>
+
+                                <div class="gradient"></div>
+                                <span class="skill__number">98%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__header">
+                <h3>SOME FEATURES</h3>
+            </div>
+            <div class="features__wrapper">
+                <div class="features__card">
+                    <img src="img/computer.png" alt="computer" class="features__img">
+                    <span class="features__label">Shortcodes</span>
+                    <h5 class="features__number">46</h5>
+                </div>
+                <div class="features__card">
+                    <img src="img/gear.png" alt="gear" class="features__img">
+                    <span class="features__label">Integrated Plugins</span>
+                    <h5 class="features__number">128</h5>
+                </div>
+                <div class="features__card">
+                    <img src="img/bag.png" alt="bag" class="features__img">
+                    <span class="features__label">Creative Products</span>
+                    <h5 class="features__number">450</h5>
+                </div>
+                <div class="features__card">
+                    <img src="img/medal.png" alt="medal" class="features__img">
+                    <span class="features__label">Clients Worldwide</span>
+                    <h5 class="features__number">100+</h5>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="posts">
+            <div class="wrapperInner">
+                <div class="about__text">
+                    <h2 class="about__heading">
+                        About us
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="postsContainer">
+                    <div class="post">
+                            
+                        <div class="post__imgBox">
+                            <img src="img/landscape6.jpg" alt="landscape6">
+                        </div>
+                        <div class="post__textbox">
+                            <div class="textContainer">
+                                <h4 class="post__heading">
+                                    Create Creative & Clean
+                                </h4>
+                                <p class="post__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corporis, quae nemo iure,
+                                    neque distinctio perferendis porro similique deleniti minus asperiores, quibusdam
+                                    repudiandae nisi. Placeat repellendus ullam id, fugit dolore explicabo beatae mollitia
+                                    vel voluptatum optio voluptatibus eveniet, sint, officiis vero? Aspernatur officiis
+                                    corrupti nulla!
+                                </p>
+                                </div>
+                            <div class="post__data">
+                                <div class="post__date">25 Jan 2015</div>
+                                <div class="post__stats">25 11</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="post">
+                        <div class="post__imgBox">
+                            <img src="img/landscape5.jpg" alt="landscape5">
+                        </div>
+                        <div class="post__textbox">
+                            <div class="textContainer">
+                                <h4 class="post__heading">
+                                    Create Creative & Clean
+                                </h4>
+                                <p class="post__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corporis, quae nemo iure,
+                                    neque distinctio perferendis porro similique deleniti minus asperiores, quibusdam
+                                    repudiandae nisi. Placeat repellendus ullam id, fugit dolore explicabo beatae mollitia
+                                    vel voluptatum optio voluptatibus eveniet, sint, officiis vero? Aspernatur officiis
+                                    corrupti nulla!
+                                </p>
+                                </div>
+                            <div class="post__data">
+                                <div class="post__date">25 Jan 2015</div>
+                                <div class="post__stats">25 11</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="post__imgBox">
+                            <img src="img/landscape1.jpg" alt="landscape3">
+                        </div>
+                        <div class="post__textbox">
+                            <div class="textContainer">
+                            <h4 class="post__heading">
+                                Create Creative & Clean
+                            </h4>
+                            <p class="post__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corporis, quae nemo iure,
+                                neque distinctio perferendis porro similique deleniti minus asperiores, quibusdam
+                                repudiandae nisi. Placeat repellendus ullam id, fugit dolore explicabo beatae mollitia
+                                vel voluptatum optio voluptatibus eveniet, sint, officiis vero? Aspernatur officiis
+                                corrupti nulla!
+                            </p>
+                            </div>
+
+                            <div class="post__data">
+                                <div class="post__date">25 Jan 2015</div>
+                                <div class="post__stats">25 11</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="post__imgBox">
+                            <img src="img/landscape2.jpg" alt="landscape2">
+                        </div>
+                        <div class="post__textbox">
+                            <div class="textContainer">
+                                <h4 class="post__heading">
+                                    Create Creative & Clean
+                                </h4>
+                                <p class="post__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corporis, quae nemo iure,
+                                    neque distinctio perferendis porro similique deleniti minus asperiores, quibusdam
+                                    repudiandae nisi. Placeat repellendus ullam id, fugit dolore explicabo beatae mollitia
+                                    vel voluptatum optio voluptatibus eveniet, sint, officiis vero? Aspernatur officiis
+                                    corrupti nulla!
+                                </p>
+                                </div>
+                            <div class="post__data">
+                                <div class="post__date">25 Jan 2015</div>
+                                <div class="post__stats">25 11</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="tabsWrapper">
+            <div class="tabs">
+                <div class="about__text">
+                    <h2 class="about__heading">
+                        Our Works
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="tabs__nav">
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab1">ALL PROJECTS</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab2">PHOTOGRAPHY</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab3">WEB DESIGN</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab4">BRANDING</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab5">MOBILE APP</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item" id="tab1">
+                        <div class="gridContainer">
+
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box1 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box2 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box4 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape4.jpg" alt="landscape4">
+                                </a>
+                            </div>
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box8 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box6 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape6.jpg" alt="landscape6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab2">
+                        <div class="gridContainer">
+                            <div class="box1 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box2 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box1 grid__box">
+                                <img src="img/landscape1.jpg" alt="landscape1">
+                            </div>
+                            <div class="box2 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box4 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape4.jpg" alt="landscape4">
+                                </a>
+                            </div>
+                            <div class="box5 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape5.jpg" alt="landscape5">
+                                </a>
+                            </div>
+                            <div class="box6 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape6.jpg" alt="landscape6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab3">
+                        <div class="gridContainer">
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box8 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box5 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape5.jpg" alt="landscape5">
+                                </a>
+                            </div>
+                            <div class="box6 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape6.jpg" alt="landscape6">
+                                </a>
+                            </div>
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box8 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab4">
+                        <div class="gridContainer">
+                            <div class="box2 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box4 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape4.jpg" alt="landscape4">
+                                </a>
+                            </div>
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box6 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape6.jpg" alt="landscape6">
+                                </a>
+                            </div>
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box8 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab5">
+                            <div class="gridContainer">
+                                <div class="box1 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape1.jpg" alt="landscape1">
+                                    </a>
+                                </div>
+                                <div class="box2 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape2.jpg" alt="landscape2">
+                                    </a>
+                                </div>
+                                <div class="box3 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape3.jpg" alt="landscape3">
+                                    </a>
+                                </div>
+                                <div class="box4 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape4.jpg" alt="landscape4">
+                                    </a>
+                                </div>
+                                <div class="box5 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape5.jpg" alt="landscape5">
+                                    </a>
+                                </div>
+                                <div class="box6 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape6.jpg" alt="landscape6">
+                                    </a>
+                                </div>
+                                <div class="box7 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape1.jpg" alt="landscape1">
+                                    </a>
+                                </div>
+                                <div class="box8 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape2.jpg" alt="landscape2">
+                                    </a>
+                                </div>
+                                <div class="box grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape3.jpg" alt="landscape3">
+                                    </a>
+                                </div>
+                                <div class="box6 grid__box">
+                                    <a href="#">
+                                        <img src="img/landscape6.jpg" alt="landscape6">
+                                    </a>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab5">
+                        <div class="gridContainer">
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box1 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box2 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box3 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box4 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape4.jpg" alt="landscape4">
+                                </a>
+                            </div>
+                            <div class="box7 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape1.jpg" alt="landscape1">
+                                </a>
+                            </div>
+                            <div class="box8 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape2.jpg" alt="landscape2">
+                                </a>
+                            </div>
+                            <div class="box grid__box">
+                                <a href="#">
+                                    <img src="img/landscape3.jpg" alt="landscape3">
+                                </a>
+                            </div>
+                            <div class="box6 grid__box">
+                                <a href="#">
+                                    <img src="img/landscape6.jpg" alt="landscape6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="formWrapper">
+                <div class="wrapperInner">
+                    <div class="about__text">
+                        <h2 class="about__heading">
+                            GET IN TOUCH
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <form class="form">
+                        <div class="formGroup formName">
+                            <label for="inputName1">NAME</label>
+                            <input type="text" id="inputName1" class="form-control input" name="username">
+                            <div class="error" style="color:tomato; height:20px"></div>
+                        </div>
+                        <div class="formGroup formMail">
+                            <label for="inputMail1">MAIL</label>
+                            <input type="email" id="inputMail1" class="form-control input" name="inputMail1">
+                            <div class="error" style="color:tomato; height:20px"></div>
+                        </div>
+                        <div class="formGroup formPass">
+                            <label for="inputPass1">PASSWORD</label>
+                            <input type="password" id="inputPass1" class="form-control input" name="inputPass1">
+                            <div class="error" style="color:tomato; height:20px"></div>
+                        </div>
+                        <div class="formGroup formConfirmPass">
+                            <label for="inputConfirmPass1">CONFIRM PASSWORD</label>
+                            <input type="password" id="inputConfirmPass1" class="form-control input"
+                                name="inputConfirmPass1">
+                            <div class="error" style="color:tomato; height:20px"></div>
+                        </div>
+                        <div class="formGroup formMessage wideInput">
+                            <label for="inputMessage">MESSAGE</label>
+                            <input type="text" id="inputMessage" class="form-control input" name="inputMessage">
+                            <div class="error" style="color:tomato; height:20px"></div>
+                        </div>
+                        <div class="confirm-send">
+                            <div class="form-check">
+                                <input type="checkbox" id="check1" class="form-checkInput" name="check">
+                                <label for="check1">I agree</label>
+                            </div>
+
+                            <button type="submit" class="btn submitBtn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal"></div>
+            </div>
+
+            <script src="js/main.js"></script>
+
+</body>
+
+</html>
